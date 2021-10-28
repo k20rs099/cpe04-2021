@@ -187,8 +187,9 @@
 
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
-      active = false;
-        
+   
+      if(active) {active = false;}
+        else{active=true;}
         
     }
 
